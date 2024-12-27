@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-dark text-white">
+    <!--navigation Bar-->
+    <!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="image/logo (1).png" alt="Logo" class="me-2" style="max-height: 50px;">Gias Uddin
+        </a>
+        <!-- Navbar Toggler for smaller screens -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onmouseover="this.style.color='blue'" onmouseout="this.style.color='white'">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onmouseover="this.style.color='blue'" onmouseout="this.style.color='white'">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onmouseover="this.style.color='blue'" onmouseout="this.style.color='white'">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio-section" onmouseover="this.style.color='blue'" onmouseout="this.style.color='white'">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://drive.google.com/file/d/14Yi1ce4XyGL5yA4Y1gtaENkaLsggZfY-/view?usp=drive_link" class="btn btn-primary mx-2" download="hello.pdf">
+                        <i class="fas fa-download"></i> Resume
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    
+    
+    
+
+    <!--header section-->
+    <section class="text-center py-5">
+        <div class="container d-flex flex-column flex-md-row align-items-center">
+            <div class="text-center text-md-start">
+                <h1 class="fw-bold text-primary">HI!</h1>
+                <h1 class="fw-bold text-primary"> I'M GIAS UDDIN</h1>
+                <p class="fs-5">Web Developer | React Developer | Programmer</p>
+                <p>I am an enthusiastic JavaScript developer with knowledge in frameworks for both frontend and backend.</p>
+                <div class="mt-3 d-flex align-items-center">
+                    <div class="social-icons">
+                        <a href="https://github.com/lightningfast33" class="text-primary fs-4 me-3"><i class="fab fa-github"></i></a>
+                        <a href="https://github.com/lightningfast33" class="text-primary fs-4 me-3"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="text-primary fs-4"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/14Yi1ce4XyGL5yA4Y1gtaENkaLsggZfY-/view?usp=drive_link" class="btn btn-primary ms-3">
+                        <i class="fas fa-download"></i> Resume
+                    </a>
+                </div>
+            </div>
+            <div class="ms-md-5 mt-4 mt-md-0">
+                <img src="image/gias.jpg" alt="Gias Uddin" class="img-fluid" style="max-width: 50%;">
+            </div>
+        </div>
+    </section>
+
+     <!--portfolio section-->
+     <section id="portfolio-section" class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-4 text-primary">Portfolio</h2>
+            <div class="border border-primary rounded-3 p-3 mb-4">
+                <div class="row">
+                    <div class="col-md-6">
+                        <!--carousel-->
+                        <div id="portfolioCarousel1" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="image/Travel-Search.png" class="d-block w-100" alt="Travel Search">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/travel-guru-map.png" class="d-block w-100" alt="Travel Guru Map">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel1" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel1" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex flex-column justify-content-center">
+                        <h4 class="mt-3">Online University
+                        <a href="https://github.com/lightningfast33" class="text-primary fs-4 me-3"><i class="fab fa-github"></i></a><a href="https://github.com/lightningfast33" class="text-primary fs-4 me-3"><i class="fab fa-github"></i></a></h4>
+                        <p>This is a Travel service agency website. Users can log in via Facebook, Google, or email and create an account.</p>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                            <li>Nulla auctor neque nec urna placerat, vel dictum magna lacinia.</li>
+                            <li>Proin sodales sapien vel felis luctus, sit amet ullamcorper metus tincidunt.</li>
+                        </ul>
+                        <div>
+                            <span class="badge bg-info text-dark">React</span>
+                            <span class="badge bg-info text-dark">Firebase</span>
+                            <span class="badge bg-info text-dark">HTML</span>
+                            <span class="badge bg-info text-dark">CSS</span>
+                            <span class="badge bg-info text-dark">Node.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border border-primary rounded-3 p-3 mb-4">
+                <div class="row">
+                    <div class="col-md-6">
+
+                        <!--carousel-->
+                        <div id="portfolioCarousel1" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="image/Travel-Search.png" class="d-block w-100" alt="Travel Search">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/travel-guru-map.png" class="d-block w-100" alt="Travel Guru Map">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel1" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel1" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex flex-column justify-content-center">
+                        <h4 class="mt-3">Online University
+                            <a href="https://github.com/lightningfast33" class="text-primary fs-4 me-3"><i class="fab fa-github"></i></a><a href="https://github.com/lightningfast33" class="text-primary fs-4 me-3"><i class="fab fa-github"></i></a></h4>
+                            
+                        <p>This is a Travel service agency website. Users can log in via Facebook, Google, or email and create an account.</p>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                            <li>Nulla auctor neque nec urna placerat, vel dictum magna lacinia.</li>
+                            <li>Proin sodales sapien vel felis luctus, sit amet ullamcorper metus tincidunt.</li>
+                        </ul>
+                        <div>
+                            <span class="badge bg-info text-dark">React</span>
+                            <span class="badge bg-info text-dark">Firebase</span>
+                            <span class="badge bg-info text-dark">HTML</span>
+                            <span class="badge bg-info text-dark">CSS</span>
+                            <span class="badge bg-info text-dark">Node.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="exp-section" class="py-5 position-relative">
+        <div class="container">
+            <div class="row">
+
+                <!--expertise-->
+                <div class="col-md-6">
+                    <div class="mb-4">
+                        <h1 class="fw-bold">Expertise</h1>
+                        <div>
+                            <span class="badge bg-info text-dark ">React.js</span>
+                            <span class="badge bg-info text-dark">Firebase</span>
+                            <span class="badge bg-info text-dark">HTML</span>
+                            <span class="badge bg-info text-dark">JavaScript</span>
+                            <span class="badge bg-info text-dark">Node.js</span>
+                            <span class="badge bg-info text-dark">Express.js</span>
+                            <span class="badge bg-info text-dark">Bootstrap</span>
+                            <span class="badge bg-info text-dark">MongoDB</span>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <h1 class="fw-bold">Comfortable</h1>
+                        <div>
+                            <span class="badge bg-info text-dark">SQL</span>
+                            <span class="badge bg-info text-dark">Redux</span>
+                            <span class="badge bg-info text-dark">Socket.io</span>
+                            <span class="badge bg-info text-dark">AWS</span>
+                            <span class="badge bg-info text-dark">Docker</span>
+                            <span class="badge bg-info text-dark">TypeScript</span>
+                            <span class="badge bg-info text-dark">Next.js</span>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <h1 class="fw-bold">Familiar</h1>
+                        <div>
+                            <span class="badge bg-info text-dark">C++</span>
+                            <span class="badge bg-info text-dark">Python</span>
+                            <span class="badge bg-info text-dark">Spring Boot</span>
+                            <span class="badge bg-info text-dark">Networking</span>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <h1 class="fw-bold">Tools</h1>
+                        <div>
+                            <span class="badge bg-info text-dark">VS Code</span>
+                            <span class="badge bg-info text-dark">JIRA</span>
+                            <span class="badge bg-info text-dark">Trello</span>
+                            <span class="badge bg-info text-dark">Git</span>
+                        </div>
+                    </div>
+                </div>
+    
+               
+                <div class="col-md-6 d-none d-md-block position-absolute top-50 end-0 translate-middle-y text-center">
+                    <h1 class="fw-bold text-primary">My Education</h1>
+                    <p>Bachelor of Science in Computer Science, XYZ University, 2021</p>
+                    <p>Master's in Software Engineering, ABC University, Expected 2024</p>
+                </div>
+            </div>
+            <div class="d-block d-md-none mt-4">
+                <h1 class="fw-bold text-primary">My Education</h1>
+                <p>Bachelor of Science in Computer science, XYZ University, 2022</p>
+                <p>Master's in Software Engineering, XYZ University, Expected 2026</p>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    
+
+    <!--contact section-->
+    <section id="contact-section" class="py-5">
+        <div class="container text-center">
+            <h1 class="fw-bold mb-4 text-primary">Contact with Me</h1>
+            <div class="border border-primary rounded-3 p-4 mx-auto" style="max-width: 600px;">
+                <form class="needs-validation" novalidate>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                        <div class="invalid-feedback">Please enter your name.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                        <div class="invalid-feedback">Please enter a valid email address.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Type your message here..." required></textarea>
+                        <div class="invalid-feedback">Please enter your message.</div>
+                    </div>
+                    <button class="btn btn-primary w-100" type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--footer-->
+    <footer class="text-center py-4 bg-dark text-white border-top shadow">
+        <div class="container">
+            <p>&copy; 2021 Gias Uddin</p>
+            <p>Kunming, Yunnan, China</p>
+            <div class="social-icons">
+                <a href="#" class="text-primary fs-4 me-3"><i class="fab fa-github"></i></a>
+                <a href="#" class="text-primary fs-4 me-3"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="text-primary fs-4"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+    
+
+    <!--bootstrap js-->
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
